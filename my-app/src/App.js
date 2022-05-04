@@ -1,6 +1,10 @@
+import Main from './components/Main';
+import Soojeong from './components/Soojeong';
+import Yura from './components/Yura';
+
 function App() {
   return (
-    <div >
+    <div>
       <header>
         <div>
           <Main />
