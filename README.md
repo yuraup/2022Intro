@@ -17,3 +17,9 @@
     setting : eslint 변경, 라이브러리 설치 등...
     
     docs : 주석 추가삭제, readme 변경 등...</p>
+
+### 브랜치 생성 단계 
+
+1. master, develop, feature/이름/기능
+2. release: 배포 준비 단계에서 생성하는 브랜치 (배포 이후라서 크게 상관 X)
+3. hotfix: 배포 후 문제 발생시 생성하는 브랜치 (배포 이후라서 크게 상관 X)
