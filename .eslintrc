@@ -1,7 +1,7 @@
 {
   // prettier 에러가 발생하면 plugin을 plugin:prettier/react로 수정하세요
   "extends": ["airbnb"],
-  "plugins": ["react-hooks"],
+  "plugins": ["react-hooks", "prettier"],
   "env": {
     "browser": true,
     "jest": true
@@ -24,7 +24,7 @@
     "linebreak-style": 0,
     "import/no-anonymouse-default-export": "off",
     "import/no-extraneous-dependencies": "off",
-    "prettier/prettier": ["off", { "endOfLine": "auto" }],
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "import/order": [
       "error",
       {
