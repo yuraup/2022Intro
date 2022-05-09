@@ -1,6 +1,6 @@
 // import Main from './components/Main';
 // import Soojeong from './components/Soojeong';
-// import Yura from './components/Yura';
+import Yura from './components/Yura';
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
         <div>
           <p>아마도..</p>
           {/* <Main />
-          <Soojeong />
-          <Yura /> */}
+          <Soojeong /> */}
+          <Yura />
         </div>
       </header>
     </div>
