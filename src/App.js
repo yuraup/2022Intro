@@ -18,6 +18,13 @@ function App() {
       <Route path="/Yura" element={<Yura />} />
       <Route path="/Soyeon" element={<Soyeon />} />
       <Route path="/Soojeong" element={<Soojeong />} />
+      <Route
+        path="/Togithub"
+        component={() => {
+          window.location.href = 'https://github.com/yuraup/2022Intro';
+          return null;
+        }}
+      />
     </Routes>
   );
 }

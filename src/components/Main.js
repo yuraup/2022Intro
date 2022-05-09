@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+import Footer from './Footer';
+
 const Top = styled.div`
   background: #fcf8f8;
-  padding: 30px;
+  padding: 35px;
   .Title {
     font-size: 55px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #f95353;
     margin-top: -30px;
     padding-top: 30px;
+    text-align: center;
   }
 
   .SecondTitle {
@@ -17,6 +20,7 @@ const Top = styled.div`
     margin-top: -30px;
     font-weight: 800;
     color: #4f4b4b;
+    text-align: center;
   }
 `;
 
@@ -66,19 +70,19 @@ const Hr = styled.hr`
 const Heart = styled.p`
   position: absolute;
   font-size: 50px;
-  margin-left: 1500px;
+  margin-left: 1200px;
 `;
 
 const Heart2 = styled.p`
   position: absolute;
   font-size: 50px;
-  margin-left: -1500px;
+  margin-left: -1200px;
 `;
 function Main() {
   return (
     <div>
       <Top>
-        <p className="Title">2022 자기소개 💖</p>
+        <p className="Title">2022 자기소개</p>
         <p className="SecondTitle">세 명의 프론트 & 협업 연습</p>
       </Top>
       <Middle>
@@ -96,7 +100,7 @@ function Main() {
           </Link>
         </div>
         <br />
-        <Heart>❤️</Heart>
+        <Heart>💖</Heart>
         <div className="right">
           <Hr />
           <Link to="/Portfolio/SooJeong">
@@ -110,6 +114,7 @@ function Main() {
           </Link>
         </div>
       </Middle>
+      <Footer />
     </div>
   );
 }
