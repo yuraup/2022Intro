@@ -1,16 +1,11 @@
-// import Main from './components/Main';
-// import Soojeong from './components/Soojeong';
-// import Yura from './components/Yura';
+import Main from './components/Main';
 
 function App() {
   return (
     <div>
       <header>
         <div>
-          <p>아마도..</p>
-          {/* <Main />
-          <Soojeong />
-          <Yura /> */}
+          <Main />
         </div>
       </header>
     </div>
