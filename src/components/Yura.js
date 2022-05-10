@@ -58,10 +58,6 @@ const HoverBox = styled.div`
   }
 `;
 
-// const heartEffect = styled.p`
-// position: absolute;
-// `;
-
 function Yura() {
   const [ImgHover, setImgHover] = useState(false);
   return (
